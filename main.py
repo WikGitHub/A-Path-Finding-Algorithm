@@ -1,3 +1,11 @@
+#Edges connect nodes, nodes can be visited 
+#Edges can be weighted (takes a certain amount or is a certain length) or unweighted
+#Only optimal paths are considered  
+#H(n) gives an estimate of node n to the end node 
+#G(n) score is the current shortest distance to get from start node to next node
+#F(n) score is the addition of H(n) and G(n)
+#Lower F(n) = closer to goal 
+
 import pygame
 import math
 from queue import PriorityQueue
